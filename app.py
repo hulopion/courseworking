@@ -5,7 +5,7 @@ def register():
     email=input("Enter your email address: ")
     password=input("Enter your password: ")
     if(len(password)<=8):
-        print("Password shorter than 8 characters, please input a new password")
+        print("Password less than 8 characters, please input a new password")
         password=input("Enter your password: ")
     else:
         print("Valid password")
